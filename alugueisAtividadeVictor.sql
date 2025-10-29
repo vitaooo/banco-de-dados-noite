@@ -20,6 +20,9 @@ order by estado, cidade;
 -- ex 7
 SELECT distinct CONCAT(cidade, '-' ,estado) as cidade_estado FROM enderecos;
 
+-- ex 8
+SELECT count(cidade) from enderecos;
+
 -- ex 9
 select * from enderecos where numero >= 100 and numero <= 200;
 -- or
